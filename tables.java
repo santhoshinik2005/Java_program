@@ -1,0 +1,16 @@
+import java.util.*;
+public class tables{
+public static void main(String[]args){
+Scanner scan=new Scanner(System.in);
+int n=scan.nextInt();
+for(int i=1;i<=n; i++){
+System.out.print(n);
+System.out.print("*");
+System.out.print(i);
+System.out.print("=");
+System.out.print(n*1);
+System.out.println();
+}
+}
+}
+
